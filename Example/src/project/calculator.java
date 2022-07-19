@@ -38,11 +38,11 @@ public class calculator {
 		switch(d) {
      case 1:System.out.println("the sum of two number is" +(a+b));
              break;
-     case 2:System.out.println("the difference of two number is" +(a-b));
+     case 2:System.out.println("the difference of two number is " +(a-b));
              break;
-     case 3:System.out.println("the multiplication of two number is"  +(a*b));
+     case 3:System.out.println("the multiplication of two number is "  +(a*b));
              break;
-     case 4:System.out.println("the division of two number is "+(a/b));
+     case 4:System.out.println("the division of two number is " +(a/b));
              break;
      default : System.out.println("no choices");
              break;
