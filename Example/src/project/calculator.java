@@ -25,9 +25,9 @@ public class calculator {
 
 		int a, b;
 		
-		calculation(int c, int d) {
-			this.a = c;
-			this.b = d;
+		calculation(int a, int b) {
+			this.a = a;
+			this.b = b;
 		}
 	
 
@@ -36,7 +36,7 @@ public class calculator {
 		void perform(int d){
 		 
 		switch(d) {
-     case 1:System.out.println("the sum of two number is" +(a+b));
+     case 1:System.out.println("the sum of two number is " +(a+b));
              break;
      case 2:System.out.println("the difference of two number is " +(a-b));
              break;
@@ -44,7 +44,7 @@ public class calculator {
              break;
      case 4:System.out.println("the division of two number is " +(a/b));
              break;
-     default : System.out.println("no choices");
+     default : System.out.println("wrong choices");
              break;
  }
 		}
